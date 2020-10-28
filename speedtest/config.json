@@ -1,0 +1,17 @@
+{
+  "name": "Speedtest",
+  "version": "1.0",
+  "slug": "speedtest",
+  "description": "Perform regular internet speedtests",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "url": "https://github.com/manzari/hass-speedtest",
+  "startup": "application",
+  "boot": "auto",
+  "homeassistant_api": true,
+  "options": {
+    "interval": 120
+  },
+  "schema": {
+    "interval": "int"
+  }
+}
