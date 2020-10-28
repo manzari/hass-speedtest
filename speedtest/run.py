@@ -77,7 +77,7 @@ def main():
         result = perform_test(config)
         log('publishing results')
         publish_result(format_speedtestnet_result(result), config['supervisor_token'])
-        log('sleeping  ' + config['interval'] + 'min till next test')
+        log('sleeping  ' + str(config['interval']) + 'min till next test')
         while ((time.perf_counter() - last_tests_start_time) / 60) < config['interval']:
             time.sleep(60)
 
