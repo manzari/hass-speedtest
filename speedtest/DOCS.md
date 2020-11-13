@@ -2,6 +2,8 @@
 The Home Assistant Speedtest add-on allows you to perform speedtests against [speedtest.net][speedtestnet]'s API.
 The results will then be visible in Home Assistant as sensors.
 
+**Homeassistant has an integration that covers all of this add-ons current functionality. Here you can find more Information about the [Speedtest.net Integration][speedtestnetintegration].**
+
 ## Installation
 1. [Add the repository][addrepo] to homeassistant, if not done already
 2. Update the add-on sources
